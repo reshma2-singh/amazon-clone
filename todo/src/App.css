@@ -1,0 +1,140 @@
+*{
+  margin: 0;
+}
+body{
+  background-color: rgb(234,237,237);
+}
+  .header{
+  background-color: #131921;
+  display: flex;
+  align-items: center;
+}
+.header__logo{
+  width: 100px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 18px;
+  object-fit: contain;
+  
+}
+.header__searchInput{
+  display: flex;
+  height: 12px;
+  padding: 10px;
+  border: none;
+  width: 65%;
+  outline: none;
+  flex: 1;
+  
+}
+.header__search{
+  display: flex;
+  flex: 1;
+}
+.header__searchIcon{
+  padding: 4px;
+  background-color: #cd9042;
+
+}
+.header__nav{
+  display: flex;
+  justify-content: space-evenly;
+}
+.header__link{
+  color: white;
+  text-decoration: none;
+}
+.header__option{
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.header__optionLineOne{
+  font-size: 10px;
+}
+.header__optionLineTwo{
+  font-size: 13px;
+  font-weight: 800;
+}
+.header__optionBasket{
+  display: flex;
+  align-items: center;
+}
+.header__basketCount{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.home{
+  display: flex;
+  flex-direction: column;
+}
+.home__row{
+  display: flex;
+  margin: 20px;
+}
+.product{
+  margin: 10px;
+}
+.product > img{
+  max-height: 200px;
+  width: 100%;
+  object-fit: contain;
+  margin-bottom: 15px;
+}
+.product > button {
+  background: #f0c14b;
+  border: 1px solid;
+  margin-top: 10px;
+  border-color: #a88734 #9c7e31 #846a29;
+  color: #111;
+  margin-left: 230px;
+}
+.checkoutProduct{
+  display: flex;
+  border: 1px solid lightgray;
+  padding: 20px;
+  margin: 20px;
+  background-color: white;
+  
+}
+.checkoutProduct > img {
+  object-fit: contain;
+  width: 180px;
+  height: 180px;
+
+}
+.btn {
+  
+  background: #f0c14b;
+  border-color: #a88734 #9c7e31 #846a29;
+  margin-top: 20px;
+}
+.parent{
+  display: flex;
+}
+.checkout__ad {
+  width: 100%;
+  margin-bottom: 10px;
+}
+.subtotal{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 300px;
+  height: 100px;
+  padding: 20px;
+  background-color: #f3f3f3;
+  border: 1px solid #dddddd;
+  border-radius: 3px;
+}
+.subtotal > button{
+  background: #f0c14b;
+  border-color: #a88734 #9c7e31 #846a29;
+  margin-top: 20px;
+}
+.bkt{
+  padding: 100px;
+  margin: 40px;
+  background-color: white;
+}
